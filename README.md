@@ -14,7 +14,8 @@ This program is a simple contract written in Solidity, a programming language us
 
 - To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-- Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a.sol extension (e.g., project.sol). Copy and paste the following code into the file --> [FileLink](https://github.com/Anshuman161203/metacrafters_ETH-AVAX-PROOF_Project_Module_3/blob/main/Project.sol)
+- Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a.sol extension (e.g., project.sol). Copy and paste the following code into the file --> [FileLink]
+- https://github.com/ArYaN14138/ETH-AVAX-PROOF-Intermediate-EVM-Course__Module3
 
 
 - Then also add Context.sol , IERC20.sol and ERC20.sol files given in github, without this program cannot compile and deploy .  
@@ -25,4 +26,4 @@ To compile the code, click on the "Solidity Compiler" tab in the left-hand sideb
 Once the contract is deployed, you can interact with it by calling all the functions. 
 
 ## Project By
-- Anshuman Roshan
+- ARYAN
