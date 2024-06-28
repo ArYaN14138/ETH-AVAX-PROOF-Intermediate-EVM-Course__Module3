@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13; // Specifies MIT license and Solidity compiler version
 
-import "ERC20.sol"; // Imports ERC20 token standard from ERC20.sol
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol"; // Imports ERC20 token standard from OpenZeppelin
 
 contract Mtoken is ERC20 { // Defines Mtoken contract inheriting from ERC20
     address public owner; // Public variable to store contract owner's address
@@ -22,6 +22,10 @@ contract Mtoken is ERC20 { // Defines Mtoken contract inheriting from ERC20
     }
     
     function burnTokens(uint256 amount) external {
-        burn(msg.sender, amount); // Incorrect syntax; typically should be _burn to destroy tokens
+        _burn(msg.sender, amount); // Correctly destroys tokens from sender's balance
+    }
+    
+    function mintTokens(address recipient, uint256 amount) external onlyOwner {
+        _mint(recipient, amount); // Mints new tokens to the recipient's balance
     }
 }
