@@ -45,9 +45,6 @@ Deploy the contract, then interact with it using a wallet or through a script th
 - Ensure the contract owner address is secured and only accessible to authorized parties.
 - Test thoroughly before deploying to a mainnet environment.
 
-## License
-
-This smart contract is licensed under the MIT License. See `LICENSE` for more information.
 
 ## Project by :
 
