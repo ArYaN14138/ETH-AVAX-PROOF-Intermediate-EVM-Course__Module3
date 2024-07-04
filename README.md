@@ -16,6 +16,7 @@ To interact with this smart contract, you need:
 - A development environment with Solidity compiler (version 0.8.0 or higher).
 - Access to an Ethereum-compatible blockchain for deployment and testing.
 - Optionally, OpenZeppelin library for ERC20 token standards.
+- Use remix IDE for implementation(https://remix.ethereum.org).
 
 ## Installation
 
